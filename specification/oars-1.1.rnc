@@ -31,5 +31,10 @@ ids = "drugs-alcohol" |
       "violence-fantasy" |
       "violence-realistic" |
       "violence-sexual" |
-      "violence-slavery"
-
+      "violence-slavery" |
+      "mood-intensity" |
+      "mood-fear" |
+      "health-flashing" |
+      "health-noise" |
+      "health-addiction" |
+      "health-accessibility"
