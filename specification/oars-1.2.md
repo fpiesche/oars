@@ -48,29 +48,31 @@ Examples
 ---
 
 ```
-<content_rating type="oars-1.1">
+<content_rating type="oars-1.2">
   <content_attribute id="language-profanity">none</content_attribute>
   <content_attribute id="money-purchasing">intense</content_attribute>
   <content_attribute id="sex-themes">mild</content_attribute>
+  <content_attribute id="mood-intensity">mild</content_attribute>
 </content_rating>
 ```
 
 This example describes an application where `money-purchasing` is `intense`,
-`sex-themes` is `mild`, and all other attributes (including, specifically,
-`language-profanity`) are `none`.
+`sex-themes` and `mood-intensity` are `mild`, and all other attributes
+(including, specifically, `language-profanity`) are `none`.
 
 It is equivalent to the following content rating:
 ```
-<content_rating type="oars-1.1">
+<content_rating type="oars-1.2">
   <content_attribute id="money-purchasing">intense</content_attribute>
   <content_attribute id="sex-themes">mild</content_attribute>
+  <content_attribute id="mood-intensity">mild</content_attribute>
 </content_rating>
 ```
 
 ---
 
 ```
-<content_rating type="oars-1.1"/>
+<content_rating type="oars-1.2"/>
 ```
 
 This example describes an application where *all* attributes have value `none`.
